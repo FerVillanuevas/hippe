@@ -1,0 +1,12 @@
+# Some Magic
+
+## Show open windows on scroll/ Expose apps
+
+```bash
+defaults write com.apple.dock "scroll-to-open" -bool "true" && killall Dock
+```
+
+## Disable dock resize 
+```bash
+defaults write com.apple.dock size-immutable -bool yes && killall Dock
+```
