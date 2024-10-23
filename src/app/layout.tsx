@@ -33,8 +33,10 @@ export default function RootLayout({
         <SidebarProvider>
           <AppSidebar />
           <main>
+            <header>
             <SidebarTrigger />
-            {children}
+            </header>
+            <div className="container mx-auto">{children}</div>
           </main>
         </SidebarProvider>
       </body>
