@@ -1,25 +1,29 @@
  
-# Mac set up
+# Mac setup
 
-
-### ITerm
- [iterm2](https://iterm2.com/): [download](https://iterm2.com/downloads/stable/latest)
-
-
-### Homebrew
+## Homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Oh My Zsh
+
+## Iterm2
+
+```bash
+brew install --cask iterm2
+```
+
+## Oh My Zsh
 
 #### install
+
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 #### PowerLevel10k
+
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
@@ -35,6 +39,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 plugins=( [plugins...] zsh-syntax-highlighting)
 
 #### NVM
+
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
@@ -72,4 +77,29 @@ load-nvmrc
 
 ```bash
 source ~/.zshrc
+```
+
+## arc brower
+
+```bash
+brew install --cask arc
+```
+
+
+## vs code
+
+```bash
+brew install --cask visual-studio-code
+```
+
+## Lulu Firewall
+
+```bash
+brew install --cask lulu 
+```
+
+## Postman
+
+```bash
+brew install --cask postman 
 ```

@@ -31,7 +31,7 @@ const data = {
       items: [
         {
           title: "Terminnal",
-          url: "/mac-terminal",
+          url: "/mac-setup",
         },
         {
           title: 'Ticks',
